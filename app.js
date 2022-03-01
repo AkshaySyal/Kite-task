@@ -94,6 +94,9 @@ app.get('/try/access/:token', (req, res) => {
     })
 })
 
+app.get('/', (req, res) => {
+    res.send('Welcome to API!')
+})
 
 
 app.listen(3000, () => {
