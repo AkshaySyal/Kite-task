@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        const url = "http://localhost:3000/try/access/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNvbWV1c2VyQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoibmV3IHVzZXIiLCJpYXQiOjE2NDYxMzQ5NjMsImV4cCI6MTY0NjEzNjc2M30.ODJdPKUJ68JS4L1JkXZgyzgLDwhB0vQlcR_1EkwWd_g"
+        fetch(url).then(res => res.json())
+            .then(data => console.log(data))
+    </script>
+</body>
+
+</html>
