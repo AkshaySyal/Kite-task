@@ -96,13 +96,6 @@ app.get('/try/access/:token', (req, res) => {
 
 
 
-
-
-app.get('/', (req, res) => {
-    res.send('WORKING')
-})
-
-
 app.listen(3000, () => {
     console.log('Server has started...')
 })
